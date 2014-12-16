@@ -15,4 +15,5 @@ Setup your database connection in app/config/config_mysql.php
 
 And last you need to rewrite base in .htaccess to your own url.
 
+Good luck
 
