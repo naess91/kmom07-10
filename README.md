@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+kmom07-10
+=========
+>>>>>>> FETCH_HEAD
 
 Allt om Chelsea 
 ------------------
@@ -14,5 +19,8 @@ I used MySql for this project so you can either use database.sql in the root fol
 Setup your database connection in app/config/config_mysql.php
 
 And last you need to rewrite base in .htaccess to your own url.
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> FETCH_HEAD
