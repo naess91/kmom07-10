@@ -1,0 +1,1 @@
+Erik Naess studerar interaktionsdesign på Linnéuniversitet men läser just nu kurser på BTH för att kunna ta sin examen i vår.

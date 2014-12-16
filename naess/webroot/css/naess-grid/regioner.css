@@ -1,0 +1,19 @@
+#main,
+#sidebar,
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3,
+#footer-col-1,
+#footer-col-2,
+#footer-col-3, 
+#footer-col-4,
+#flash {
+ background-color:rgba(202, 202, 255, 1);
+ min-height:60px;
+}
+#wrapper {
+background-image:url(http://dbwebb.se/image/tema/grid_12_60_20.png);
+}

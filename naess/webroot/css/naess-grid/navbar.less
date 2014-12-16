@@ -1,0 +1,161 @@
+/**
+ * Based on http://dbwebb.se/coachen/en-navbar-med-drop-down-meny-i-ren-html-och-css
+ * Changed to only style li-items instead of a.
+ */
+
+
+ 
+#navbar {
+  margin-bottom: 44px;
+}
+
+.navbar {}
+ 
+.navbar ul {
+  list-style: none; 
+ 	margin:0 12%;
+  
+
+}
+ 
+.navbar li {
+	background-color: #003084; 
+  display: inline-block;
+ margin:10px;
+  color: white;
+  position: relative; 
+}
+ 
+.navbar a {
+  display: block;
+  width: 100%;
+padding:8px;
+  text-decoration: none;
+  color: inherit;
+  
+  font-size:20px;
+}
+
+.navbar li:hover {
+ 
+ background:#d69f24; 
+} 
+
+#navbar > nav > ul > li.selected-parent > ul > li.selected, 
+.navbar li.selected-parent, 
+.navbar li.selected {
+  color: white; 
+  background:#d69f24; 
+}
+
+.navbar ul ul {
+  background-color: #fff; 
+  padding: 8px; 
+  position: absolute; 
+  left: -9999px; 
+  z-index: 2;
+}
+ 
+.navbar li li {
+  border-top: none;  
+  
+}
+
+.navbar li:hover ul {
+  left: 0;
+}
+ 
+.navbar li li:hover {
+  color: #666; 
+  border-color: #666;
+}
+
+.navbar li li.selected {
+  color: white; 
+  border-color: #22f;
+}
+
+
+.navbar li .italic {
+  font-style: italic;
+}
+
+
+#navbar > nav > ul > li.addquestion {
+margin-left:24%; 
+
+}
+
+.navbar ul {
+  list-style: none; 
+ 
+
+
+} 
+
+/* headnav */
+
+
+
+.headnav {
+background-color:#003084;
+height:50px;
+margin:0 auto;
+width:100%;
+
+
+}
+ 
+
+
+
+
+.headnav ul {
+max-width:960px;	
+}
+
+ 
+.headnav li {
+	
+  display: inline-block;
+ 
+  color: #333; 
+  position: relative; 
+}
+ 
+.headnav li {
+	
+  display: inline-block;
+ 
+  color: #333; 
+  position: relative; 
+}
+ 
+.headnav a {
+
+  display: block;
+  width: 100%;
+padding:5px;
+  text-decoration: none;
+  color: white;
+ 
+  font-size:16px;
+}
+
+.headnav a:hover {
+  color: #d69f24; 
+  border-color: #666;
+} 
+
+
+
+
+
+
+
+ 
+
+
+
+
+

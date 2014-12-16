@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+input.editButton {
+	float:right;
+	border:none;
+	background-color:#0CF;
+	color:white;
+	padding:5px 10px 5px;
+	margin-right:5px;
+	}	
+
+input.deleteButton {
+	float:right;
+	border:none;
+	background-color:#F00;
+	color:white;
+	padding:5px 10px 5px;
+	}
+	
+input.removeAllButton {
+	margin-top:10px;
+	border:none;
+	background-color:#F00;
+	color:white;
+	padding:5px 10px 5px;
+	}
+	
+input.commentButton {
+	margin-top:10px;
+	border:none;
+	background-color:#0C3;
+	color:white;
+	padding:5px 10px 5px;
+	}
+	
+input.commentButton:hover, input.removeAllButton:hover,
+input.deleteButton:hover, input.editButton:hover  	{
+	
+	background-color:black;
+	}	
+
+	
+.post-content  {
+	min-height:50px;
+	
+	}
+	
+.comment-form	  {
+	width:700px;
+	margin: 0 15%;
+	
+	}
+	
+.post-list	 {
+	width:700px;
+	margin: 0 11%;
+	
+	}
+	
+div.post-footer a {
+	
+	color:black;	
+	}
+div.post-footer a:hover {
+	
+	color:#333;	
+	}	

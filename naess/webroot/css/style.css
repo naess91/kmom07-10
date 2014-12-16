@@ -1,0 +1,93 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+body {
+  color: #333;
+  font-family:"Champagne & Limousines";
+  overflow-y: scroll;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitelogo {
+margin:0 25%;
+}
+
+
+/**
+ * Layout for main
+ */
+.naess {
+ float:right;
+ margin-top:50px;
+}
+
+ 
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  margin:0 15%;
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.byline {
+  margin:44px 0;
+  border-top: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+.byline p {
+  margin-top: 0;
+}

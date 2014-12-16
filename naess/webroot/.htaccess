@@ -1,0 +1,6 @@
+RewriteEngine on
+
+#RewriteBase /~ernb14/phpmvc/kmom07:10/naess/webroot/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php [L]
