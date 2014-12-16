@@ -84,4 +84,4 @@
 <?php if(isset($_SESSION['user']))  
         {  ?>
 
-<div ><h3 >Lämna ett svar</h3><?=$form?></div><?php } else print "<p style = 'margin-top:50px;'>För att lämna en kommentar så måste du <a href = 'http://localhost:9000/phpmvc/kmom07:10/naess/webroot/profile'> Logga in</a></p>";  ?>
+<div ><h3 >Lämna ett svar</h3><?=$form?></div><?php } else print "<p style = 'margin-top:50px;'>För att lämna ett svar så måste du <a href = 'http://localhost:9000/phpmvc/kmom07:10/naess/webroot/profile'> Logga in</a></p>";  ?>

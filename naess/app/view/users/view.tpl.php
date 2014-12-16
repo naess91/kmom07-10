@@ -21,7 +21,7 @@
 	
 <?php foreach ($questions as $question) : ?>  
 
-<?php $url = $this->url->create('questions/show') .'/' . $question->id?>
+<?php $url = $this->url->create('questions/view') .'/' . $question->id?>
 
 <a href=<?php echo $url?>><div class="question"  style='overflow:auto; padding:10px; padding-bottom:10px;position:relative;'>
 
