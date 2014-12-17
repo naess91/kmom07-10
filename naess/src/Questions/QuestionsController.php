@@ -172,6 +172,22 @@ class QuestionsController implements \Anax\DI\IInjectionAware
       
       
     } 
+	
+		 public function activeUsersAction($tag = null)  
+    { 
+	   		$questions = $this->db->userActivity();
+				
+			$title = "Mest aktiva användare";
+			
+			$questions = isset($questions) ? $questions : [];
+      		$this->views->add('post/active-users', [   
+              'questions' => $questions,
+			  'title' => $title,
+      ]);
+      
+      
+    } 
+	
 	public function totalQuestionsAction($tag = null)  
     { 
 	   		$questions = $this->db->totalQuestions();
@@ -187,7 +203,7 @@ class QuestionsController implements \Anax\DI\IInjectionAware
       
     } 
 		
-    public function populartagsAction($tag = null)  
+    public function mostusedAction($tag = null)  
     { 
 	    	$taglist = $this->db->topTags();
 			$title = "Populära tags";

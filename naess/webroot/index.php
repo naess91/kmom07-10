@@ -72,13 +72,17 @@ $app->router->add('', function() use ($app) {
 		
 			$app->dispatcher->forward([
 			        'controller' => 'questions',
-			        'action' => 'populartags',
+			        'action' => 'mostused',
 			    ]);
 		
 			$app->dispatcher->forward([
 			        'controller' => 'questions',
 			        'action' => 'activity',
 			    ]);
+			$app->dispatcher->forward([
+			        'controller' => 'questions',
+			        'action' => 'activeUsers',
+			    ]);	
 });
  
 

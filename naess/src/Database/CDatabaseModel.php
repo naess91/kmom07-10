@@ -66,7 +66,7 @@ class CDatabaseModel implements \Anax\DI\IInjectionAware
 	
 		public function userActivity()
     {
-        $sql = "SELECT * FROM questions WHERE user =  '$acronym' GROUP BY id UNION ALL SELECT * FROM answers WHERE user =  '$acronym' UNION ALL SELECT linkid,user,id,content,created,type FROM comments WHERE user =  '$acronym' group by id ORDER BY created DESC limit 5";
+        $sql = "SELECT DISTINCT(user) as user, COUNT(content) as total from most_active group by user ORDER BY COUNT(*) DESC";
     
         $this->db->execute($sql);
 		$this->db->setFetchModeClass(__CLASS__);
